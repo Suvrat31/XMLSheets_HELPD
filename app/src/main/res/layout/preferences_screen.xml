@@ -135,7 +135,7 @@
         app:layout_constraintTop_toBottomOf="@+id/timings" />
 
     <RadioGroup
-        android:id="@+id/radiogroup_preferences"
+        android:id="@+id/radiogroup_preferences2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
