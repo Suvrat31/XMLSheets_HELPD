@@ -6,14 +6,14 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/signup_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="180dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="100dp"
-        android:text="Login"
+        android:text="SignUp"
         android:textColor="#A6E78F"
         android:textSize="48sp"
         android:textStyle="bold"
@@ -28,16 +28,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:ems="10"
-        android:hint="Username"
+        android:hint="E-mail"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/signup_textView" />
 
     <EditText
         android:id="@+id/password_editText"
@@ -54,20 +52,21 @@
         app:layout_constraintTop_toBottomOf="@+id/email_editText" />
 
     <Button
-        android:id="@+id/login_button"
+        android:id="@+id/fetch_location_button"
 
-        android:layout_width="115dp"
-        android:layout_height="37dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
 
         android:layout_marginStart="8dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/greenbutton"
+        android:padding="10dp"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
-        android:text="LOGIN"
+        android:text="Fetch Location"
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,4 +92,16 @@
         app:layout_constraintEnd_toEndOf="@+id/password_editText"
         app:layout_constraintTop_toTopOf="@+id/password_editText"
         app:srcCompat="@drawable/passwordicon" />
+
+    <Button
+        android:id="@+id/signup_button"
+
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#A6E78F"
+        android:text="SIGNUP"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
