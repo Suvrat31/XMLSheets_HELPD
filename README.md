@@ -1,6 +1,6 @@
 # XMLSheets_HELPD
 <html>
 <body>
-<h1>This is the documentation file</h1>
+<h1>Some XML files created for my project</h1>
 </body>
 </html>
